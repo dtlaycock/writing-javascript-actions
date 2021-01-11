@@ -7,3 +7,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
+      
+      - name: hello-action
+        uses: ./.github/actions/hello-world
